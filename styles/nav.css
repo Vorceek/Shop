@@ -5,7 +5,8 @@
 nav {
     position: fixed;
     width: 100%;
-    top: 10em;
+    top: 0;
+    left: 0;
     padding: 60px;
     transition: 0.5s;
     background-color: #000000;
@@ -16,8 +17,9 @@ nav.roll {
 }
 
 nav.roll .flex h1 {
-    color: #2a6dd1;
+    color: #ffffff;
 }
+
 
 nav i {
     font-size: 50px;
@@ -50,8 +52,19 @@ nav ul li a {
     justify-content: space-between;
 }
 
-.flex h1 {
-    color: #ffffff;
+.flex a {
+    text-decoration: none;  
+}
+
+.flex a h1 {
+    color: #ffff;
+    font-size: 28px;
+    font-family: "Diplomata SC", serif;
+}
+
+.flex a img {
+    padding: 0;
+    height: 100px;
 }
 
 .btn-contato button {
@@ -62,4 +75,14 @@ nav ul li a {
     color: rgb(255, 255, 255);
     background-color: #2a6dd1;
     transition: .2s;
+}
+
+@media (max-width: 834px) {
+    .flex a img {
+        opacity: 0%;
+    } 
+
+    .flex a h1 {
+        font-size: 20px;
+    }
 }
