@@ -1,0 +1,65 @@
+/* Nav */
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 10em;
+    padding: 60px;
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+nav.roll {
+    padding: 20px 4%;
+}
+
+nav.roll .flex h1 {
+    color: #2a6dd1;
+}
+
+nav i {
+    font-size: 50px;
+    color: #2a6dd1;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex h1 {
+    color: #ffffff;
+}
+
+.btn-contato button {
+    width: 150px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #2a6dd1;
+    transition: .2s;
+}

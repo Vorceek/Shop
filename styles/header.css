@@ -1,66 +1,41 @@
-/* HEADER / BARRA DE ROLAGEM */
-
-
 
 header {
+    margin-top: -2.5em;
+    height: 35px;
     width: 100%;
-    padding: 60px 4%;
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: fixed; 
     transition: 0.5s;
-    background-color: #000000;
+    background-color: #fff019;
 }
 
-header.roll {
-    padding: 20px 4%;
+.containerheader {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/banner-content-marketing.jpg);
+    background-size: cover;
 }
 
-header.roll .flex h1 {
-    color: #f30ff3;
-}
+/*
 
-header i {
-    font-size: 50px;
-    color: #2a6dd1;
-}
+    <nav id="nav">
+        <div class="container">
 
+            <div class="flex">
+                
+                <a href="index.html"><i class='bx bx-dumbbell'></i></a>
+                <h1>Zenyth</h1>
+                <ul>
+                    <li><a href="#">Shopee</a></li>
+                    <li><a href="#">Amazon</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">eBooks</a></li>
+                </ul>
 
-header ul {
-    list-style-type: none;
-}
+                <div class="btn-contato">
+                    <a href="#"><button>NOSSO CONTATO</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-header ul li {
-    display: inline-block;
-    margin: 0 40px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.container {
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flex h1 {
-    color: #ffffff;
-}
-
-.btn-contato button {
-    width: 150px;
-    height: 40px;
-    border: 0;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    background-color: #2a6dd1;
-    transition: .2s;
-}
+*/
